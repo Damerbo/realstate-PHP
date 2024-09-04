@@ -1,0 +1,21 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+
+.footer {
+  padding: calc(v.$space / 2) 0;
+  background-color: v.$darkGray;
+  margin-bottom: 0;
+
+  .footer-container {
+    padding-top: calc(v.$space / 2);
+  }
+  .navbar {
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+  }
+  .copyright {
+    color: v.$white;
+    text-align: center;
+  }
+}

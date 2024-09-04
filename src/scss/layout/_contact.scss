@@ -1,0 +1,26 @@
+@use "base/mixins" as m;
+@use "base/variables" as v;
+
+.no-webp .contact-image {
+  background-image: url("../img/encuentra.jpg");
+}
+
+.webp .contact-image {
+  background-image: url("../img/encuentra.webp");
+}
+
+.contact-image {
+  background-position: center center;
+  background-size: cover;
+  padding: v.$space 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2 {
+    font-weight: v.$bold;
+    color: v.$white;
+  }
+  p {
+    color: v.$white;
+  }
+}

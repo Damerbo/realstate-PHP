@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+
+// Fonts
+$mainFont: "Lato", sans-serif;
+
+// media-queries size
+$phone: 480px;
+$tablet: 768px;
+$desktop: 1024px;
+
+// Colors
+$black: #000000;
+$yellow: #e08709;
+$green: #71b100;
+$white: #ffffff;
+$gray: #e1e1e1;
+$darkGray: #333333;
+$redAlert: #ff0f0f;
+
+$space: 5rem;
+
+// Font Weight
+$light: 300;
+$regular: 400;
+$semiBold: 500;
+$bold: 700;
+$extraBold: 900;
